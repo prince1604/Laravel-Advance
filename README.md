@@ -122,14 +122,14 @@ laravel_advance/
     Custom error pages and alerts
 
 ## 🔁 Maintenance Mode
-    Enable:
+Enable:
     
-php artisan down
+    php artisan down
 
     
-    Disable:
+Disable:
     
-php artisan up
+    php artisan up
 
 ## 🔐 Authentication APIs
 
@@ -144,7 +144,47 @@ POST /api/login
 ✅ Validate Auth
 
 
+---
 
+🌐 API Features
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/api/items
+
+Get all records
+
+POST
+
+/api/items
+
+Create new record
+
+PUT
+
+/api/items/{id}
+
+Update a record
+
+DELETE
+
+/api/items/{id}
+
+Delete a record
+
+GET
+
+/api/search?q=
+
+Search records
+
+---
 
 
 
