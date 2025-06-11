@@ -145,49 +145,8 @@ POST /api/login
 
 ✅ Validate Auth
 
-
 ---
-
-🌐 API Features
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/api/items
-
-Get all records
-
-POST
-
-/api/items
-
-Create new record
-
-PUT
-
-/api/items/{id}
-
-Update a record
-
-DELETE
-
-/api/items/{id}
-
-Delete a record
-
-GET
-
-/api/search?q=
-
-Search records
-
----
-🌐 API Features
+## 🌐 API Features
 
 | Method | Endpoint        | Description       |
 | ------ | --------------- | ----------------- |
@@ -199,13 +158,13 @@ Search records
 
 ---
 
-🔬 Test with VS Code Extensions
+## 🔬 Test with VS Code Extensions
 
 Thunder Client 
 REST Client
 Postman
 
-📦 Database Seeding
+## 📦 Database Seeding
 
 use factory-based seeding:
 ```
@@ -250,6 +209,35 @@ API Token Authentication (Sanctum/Passport)
 
 ---
 
-💬 Contribution
-Pull requests and feature ideas are welcome. Please fork the repo and submit a PR.
+## 🤝 Contributions Welcome
+Bug fixes, feature requests, and improvements via pull requests are encouraged! Please open an issue before making major changes.
+
+## 📄 License
+Licensed under the MIT License.
+
+## 📬Contact & Support
+GitHub: @prince1604
+Issues: Open a GitHub Issue
+
+
+---
+## 📌 Note on `project_advance.sql` File
+
+The `project_advance.sql` file provided in this repository is for reference purposes only.
+
+You **do not** need to manually import this SQL file into your database.
+
+Instead, this Laravel project uses Laravel's built-in migration system to automatically create all required database tables and structure.
+
+✅ **How to Set Up the Database:**
+
+1. Make sure your `.env` file is properly configured with your MySQL credentials.
+2. Create a new database (e.g., `project_advance`) in your MySQL server.
+3. Run the following command:
+
+   ```bash
+   php artisan migrate
+   ```
+
+This will automatically create all necessary tables without any manual SQL imports.
 
