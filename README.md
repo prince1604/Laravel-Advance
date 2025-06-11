@@ -124,18 +124,18 @@ laravel_advance/
 ## 🔁 Maintenance Mode
     Enable:
     
-    php artisan down
+php artisan down
 
     
     Disable:
     
-    php artisan up
+php artisan up
 
 ## 🔐 Authentication APIs
 
-    ✅ Signup
+✅ Signup
 
-    POST /api/signup
+POST /api/signup
 
 ✅ Login
 
