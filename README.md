@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# 🚀 Advance
+# 🚀 Laravel-Advance
 
 A Laravel-based advanced CRUD and API-driven application demonstrating modern Laravel development features such as image uploads, authentication, relationships, route model binding, API testing, and more.
 
