@@ -105,4 +105,48 @@ laravel_advance/
    ```
    php artisan serve
    ```
+---
+
+## 🎨 Frontend UI
+
+    Blade templating engine with layout inheritance
+
+    Bootstrap 5 integration
+
+    Responsive design
+
+    Custom inline components
+
+    Image upload with preview
+
+    Custom error pages and alerts
+
+## 🔁 Maintenance Mode
+    Enable:
+    
+    php artisan down
+
+    
+    Disable:
+    
+    php artisan up
+
+## 🔐 Authentication APIs
+
+    ✅ Signup
+
+    POST /api/signup
+
+✅ Login
+
+POST /api/login
+
+✅ Validate Auth
+
+
+
+
+
+
+
 
