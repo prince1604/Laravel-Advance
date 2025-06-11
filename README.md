@@ -105,6 +105,8 @@ laravel_advance/
    ```
    php artisan serve
    ```
+7. Visit: http://localhost:8000
+
 ---
 
 ## 🎨 Frontend UI
@@ -185,8 +187,69 @@ GET
 Search records
 
 ---
+🌐 API Features
 
+| Method | Endpoint        | Description       |
+| ------ | --------------- | ----------------- |
+| GET    | /api/items      | Get all records   |
+| POST   | /api/items      | Create new record |
+| PUT    | /api/items/{id} | Update a record   |
+| DELETE | /api/items/{id} | Delete a record   |
+| GET    | /api/search?q=  | Search records    |
 
+---
 
+🔬 Test with VS Code Extensions
 
+Thunder Client 
+REST Client
+Postman
+
+📦 Database Seeding
+
+use factory-based seeding:
+```
+php artisan db:seed
+```
+you can create your own:
+```
+php artisan make:seeder CustomSeeder
+```
+---
+## 🔗 Relationships
+
+One-to-Many
+Many-to-Many
+BelongsTo and HasManyWithDefaults
+
+---
+## 🧰 Laravel Concepts Used
+Route Model Binding
+
+Accessors & Mutators
+
+Maintenance Mode
+
+Inline Blade Components
+
+Email Notifications (Laravel Mail)
+
+Fluent Strings (Str class)
+
+Image Upload and Storage
+
+Resource Controllers
+
+Laravel Stubs
+
+API Resource Collections
+
+Middleware and CSRF
+
+API Token Authentication (Sanctum/Passport)
+
+---
+
+💬 Contribution
+Pull requests and feature ideas are welcome. Please fork the repo and submit a PR.
 
